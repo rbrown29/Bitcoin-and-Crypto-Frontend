@@ -240,4 +240,76 @@ th, td {
   cursor: pointer;
   border-radius: 4px;
 }
+@media (min-width: 320px) and (max-width: 480px) {
+  .header > h1 {
+   display: none;
+  }
+  .header {
+   margin-right: 0px;
+   background-image: none;
+  }
+  ul {
+   list-style: none;
+   position: relative;
+   right: 0px;
+   top: 0px;
+   margin-right: 0px;
+  }
+  li {
+   float: none;
+  }
+  li a {
+   display: block;
+   text-align: center;
+  }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px)  {
+  .header > h1 {
+    display: none;
+   }
+   .header {
+    margin-right: 0px;
+    background-image: none;
+   }
+   ul {
+    list-style: none;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    margin-right: 0px;
+   }
+   li {
+    float: none;
+   }
+   li a {
+    display: block;
+    text-align: center;
+   }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header > h1 {
+    display: none;
+   }
+   .header {
+    margin-right: 0px;
+    background-image: none;
+   }
+   ul {
+    list-style: none;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    margin-right: 0px;
+   }
+   li {
+    float: none;
+   }
+   li a {
+    display: block;
+    text-align: center;
+   }
+}
+
 
