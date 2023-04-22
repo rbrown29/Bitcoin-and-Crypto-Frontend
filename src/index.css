@@ -246,7 +246,7 @@ th, td {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #171d23;
   position: fixed;
   top: 0;
   left: 0;
@@ -261,7 +261,7 @@ th, td {
   height: 80px;
   border: 6px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 6px solid #3498db;
+  border-top: 6px solid #fd820a;
   animation: spin 2s linear infinite;
 }
 
