@@ -42,7 +42,9 @@ class App extends React.Component {
     console.log(this.state.news);
     const { isLoaded } = this.state;
     if (!isLoaded) {
-      return <div>No Data!</div>
+      return <div className="loader-container">
+        <div className="loader">Loading...</div>
+      </div>
     } else {
       return (
         <>
