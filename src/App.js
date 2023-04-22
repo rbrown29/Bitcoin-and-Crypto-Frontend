@@ -43,7 +43,7 @@ class App extends React.Component {
     const { isLoaded } = this.state;
     if (!isLoaded) {
       return <div className="loader-container">
-        <div className="loader">Loading...</div>
+        <div className="loader"></div>
       </div>
     } else {
       return (
