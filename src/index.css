@@ -15,22 +15,13 @@ body {
 }
 
 .header {
-  background-image: url('https://media.giphy.com/media/WT9wi81vtEhqt17SE4/giphy.gif');
   background-color: #222e34;
-  background-size: small;
-  background-repeat: no-repeat;
-  background-position-y: -60px;
-  background-position-x: 150px;
-  height: 350px;
-  display: flex;
-  justify-content: flex-end;
-  font-family: 'Poiret One', cursive;
+  padding: 20px;
+  text-align: center;
 }
 .header > h1 {
-    text-align: right;
     font-size: 60px;
     color: #fd820a;
-    margin-right: 600px;
 }
 .div1 {
   display: flex;
@@ -72,7 +63,7 @@ ul {
   position: absolute;
   right: 500px;
   top: 150px;
-  margin-right: 350px;
+  margin-right: 2em;
 }
 
 li {
